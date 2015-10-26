@@ -1,6 +1,6 @@
 {
   "name": "this-to-arg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert `this` to the first argument in a function",
   "main": "this-to-arg.js",
   "scripts": {
