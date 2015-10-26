@@ -13,7 +13,10 @@ This is a contrived example of using jQuery to create a link that turns into a t
 		var element = this
 		var seconds = 0
 		
-		setInterval(function() { element.innerHTML = seconds }, 1000)
+		setInterval(function() {
+			seconds++
+			element.innerHTML = seconds
+		}, 1000)
 		event.preventDefault()
 	}
 	
@@ -28,7 +31,10 @@ This is a contrived example of using jQuery to create a link that turns into a t
 		
 		var seconds = 0
 		
-		setInterval(function() { element.innerHTML = seconds }, 1000)
+		setInterval(function() {
+			seconds++
+			element.innerHTML = seconds
+		}, 1000)
 		event.preventDefault()
 	}
 	
