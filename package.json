@@ -1,0 +1,30 @@
+{
+  "name": "this-to-arg",
+  "version": "1.0.0",
+  "description": "Convert `this` to the first argument in a function",
+  "main": "this-to-arg.js",
+  "scripts": {
+    "test": "browserify tests.js | node | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatumCreative/npm-this-to-arg.git"
+  },
+  "author": "Greg Tatum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TatumCreative/npm-this-to-arg/issues"
+  },
+  "homepage": "https://github.com/TatumCreative/npm-this-to-arg#readme",
+  "keywords": [
+    "this",
+    "arguments",
+    "functional",
+    "parameters",
+    "args"
+  ],
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.2.2"
+  }
+}
